@@ -3,7 +3,7 @@ let w = 80;
 let maxD;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight, WEBGL);
+	createCanvas(windowWidth*0.95, windowHeight*0.95, WEBGL);
 	ortho(-width, width, -height, height, -(width+height), (width+height));
 	maxD = dist(0, 0, width/2, height/2);
 }
